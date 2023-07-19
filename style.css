@@ -70,8 +70,10 @@
 
 }
 .nav-btn > .tiktok{
-    font-size: 18px;  
+    font-size: 18px; 
 }
+
+
 
 /* banner section  */
 
@@ -475,7 +477,7 @@ footer{
 .social-link {
     width: 260px;
     height: 30px;
-    margin: 35px auto;
+    margin: 30px auto;
     text-align: center;
     display: flex;
 }
@@ -519,7 +521,28 @@ footer{
     color: red;
 }
 
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
+}
+.footer-info >p{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;   
+}
+.copyright > p{
+    margin-top: 20px;
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 11px;
+font-weight: 500;
+
+}
 
 
 
