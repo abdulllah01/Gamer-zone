@@ -389,10 +389,10 @@
 background: linear-gradient(90deg, rgba(255, 66, 165, 0.08) 0%, rgba(255, 66, 165, 0.06) 100%);
 }
 .different-games-items{
-    margin-top: 40px;
+    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
     justify-content: center;
     align-items: center;
 }
@@ -566,7 +566,7 @@ font-weight: 500;
 
 /* media query styles */
 
-@media screen and (max-width:576px){
+@media screen and (max-width:597px){
  /* nav section  */
     .nav-section{
         flex-direction: column;
@@ -905,27 +905,65 @@ footer{
 
 
 
-@media screen and (min-device-width: 577px)
+@media screen and (min-device-width: 598px)
     and (max-device-width: 1024px) {
-    .nav-section{
-        padding: 0px;
-        padding-top: 30px;
-        padding-right: 30px;
-        padding-left: 30px;
-        display: flex;
-        box-shadow: none;
-        margin-bottom: 30px;
-    }
-  
-   
-    
-    .nav-btn > .youtube{
-        color: red;
-        margin:0px 7px;
-        font-size: 14px;
-    
-    }
-    
+        .nav-section{
+            flex-direction: column;
+            padding: 0px;
+            box-shadow: none;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            margin: 0px auto;
+            margin-top: 60px;
+        
+        }
+        .logo > img{
+            width: 65px;
+            margin-right: 10px;
+        }
+        .nav-title{
+            color: #0B0223;
+            font-family: Work Sans;
+            font-size: 45px;
+            font-weight: 700;    
+        }
+        
+        
+        .nav-title > span{
+            color: #ff42a5;
+        }
+        .nav-section > ul{
+            flex-direction: column;
+        
+        }
+         .nav-items {
+            margin-bottom: 15px;
+            margin-top: 15px;
+         }
+        .nav-items > a{
+            font-size: 18px;   
+        }
+        
+        .nav-btn{
+            color: #3C354F;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 7px 15px;
+            margin-bottom: 30px;
+        }
+        
+        .nav-btn > .youtube{
+            color: red;
+            margin:0px 7px;
+            font-size: 14px;
+        
+        }
+        .nav-btn > .tiktok{
+            font-size: 14px;  
+        }
+        
     
 
  /* banner section  */
