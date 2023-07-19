@@ -865,9 +865,12 @@ footer{
 
 
 .footer-list{
-    display: flex;
-    flex-wrap: wrap;
-    
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-list li{
+    font-size: 12px;
 }
 
 .social-link {
@@ -895,10 +898,10 @@ footer{
 .footer-info{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2,1fr);
+    
 
 }
-
 
 
 }
