@@ -286,10 +286,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 250px;
-    height: 300px;
+    width: 244px;
+    height: 294px;
     opacity: .8;
     background-color: #0B0223;
+    border:3px solid #ff42a5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -426,7 +427,121 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.08) 0%, rgba(255, 66, 16
 
 
 
+/* footer section  */
 
+footer{
+    padding: 100px 100px 100px 100px;
+    background: rgb(11, 2, 35);
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+.footer-logo > img{
+    width: 55px;
+    margin-right: 10px;
+}
+.footer-title{
+    color: #ffffff;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;    
+}
+
+
+.footer-title > span{
+    color: #ff42a5;
+}
+
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.footer-list > li{
+    list-style: none;
+    color: #ffffff;
+    
+
+}
+.social-link {
+    width: 260px;
+    height: 30px;
+    margin: 35px auto;
+    text-align: center;
+    display: flex;
+}
+.social-link li{
+    list-style: none;
+}
+.social-link li > a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+
+#facebook{
+    color:  #3b5998 ;
+}
+
+#twitter{
+    color: #00acee;
+}
+
+#instragram{
+    
+    color: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#linkedin{
+    padding: 2px;
+    background-color: #4EC5F7;
+    color: white;
+}
+
+#apple{
+    color: #fff;
+}  
+
+#youtube{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query styles */
 
 @media screen and (max-width:576px){
  /* nav section  */
