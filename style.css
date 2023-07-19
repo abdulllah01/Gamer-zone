@@ -405,9 +405,10 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.08) 0%, rgba(255, 66, 16
     border-radius: 40px;
     display: flex;
     align-items: center;
+    border: 2px solid transparent;
 }
 .items:hover{
-    border: 1.5px solid #ff42a5;
+    border: 2px solid #ff42a5;
 }
 .items:hover h4{
     color: #ff42a5;
