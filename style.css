@@ -65,12 +65,16 @@
 
 .nav-btn > .youtube{
     color: red;
-    margin:0px 7px;
-    font-size: 18px;
+    margin:0px;
+    font-size: 22px;
+    position: relative;
+    bottom: -1px;
 
 }
-.nav-btn > .tiktok{
-    font-size: 18px; 
+.nav-btn .img{
+    width: 22px;
+    position: relative;
+    bottom: -2px;
 }
 
 
@@ -617,12 +621,13 @@ font-weight: 500;
     
     .nav-btn > .youtube{
         color: red;
-        margin:0px 7px;
+        margin:0px 0px;
         font-size: 14px;
     
     }
-    .nav-btn > .tiktok{
-        font-size: 14px;  
+    .nav-btn .img{
+        margin-top: 4px;
+       width: 14px;  
     }
     
 
@@ -955,16 +960,24 @@ footer{
             font-weight: 500;
             padding: 7px 15px;
             margin-bottom: 30px;
+            align-items: center;
         }
         
         .nav-btn > .youtube{
             color: red;
-            margin:0px 7px;
-            font-size: 14px;
+            margin:5px 0px;
+            margin-left: 3px;
+            font-size: 22px;
+            
+            position: relative;
+            bottom: -2px;
+            
         
         }
-        .nav-btn > .tiktok{
-            font-size: 14px;  
+        .nav-btn > .img{
+            position: relative;
+            bottom: -3px;
+            width: 20px;  
         }
         
     
